@@ -1,0 +1,12 @@
+package cscie55.hw2;
+
+public class Elevator {
+       private static final int MAXFOOR = 7;
+       enum DIRECTION { UP, DOWN }
+       DIRECTION direction;
+       private int currentFloor;
+       public Elevator() {
+       	      direction = UP;
+	      currentFloor = 1;
+       }
+}
